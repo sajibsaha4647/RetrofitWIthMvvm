@@ -1,4 +1,4 @@
-package com.example.retrofitwithmvvm
+package com.example.retrofitwithmvvm.Model
 
 data class Result(
     val _id: String,

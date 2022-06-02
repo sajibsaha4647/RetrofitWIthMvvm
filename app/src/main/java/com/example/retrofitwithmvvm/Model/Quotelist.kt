@@ -1,4 +1,4 @@
-package com.example.retrofitwithmvvm
+package com.example.retrofitwithmvvm.Model
 
 data class Quotelist(
     val count: Int,
