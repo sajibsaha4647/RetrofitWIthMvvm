@@ -7,7 +7,7 @@ object RetrofitHelper {
 
     private val BASE_URL = "https://www.quotable.io"
 
-    fun getInstance():Retrofit{
+   fun getInstance():Retrofit{
         return  Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build()
     }
 
