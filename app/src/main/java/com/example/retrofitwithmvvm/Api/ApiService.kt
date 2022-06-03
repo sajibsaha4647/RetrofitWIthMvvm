@@ -7,7 +7,11 @@ import retrofit2.http.Query
 
 interface ApiService {
 
+//    @GET("/quotes")
+//    fun getQuotes(@Query("page") page:Int):Response<Quotelist>
+
+
     @GET("/quotes")
-    fun getQuotes(@Query("page") page:Int):Response<Quotelist>
+    suspend fun getQuotes(@Query("page") page:Int):Response<Quotelist>
 
 }

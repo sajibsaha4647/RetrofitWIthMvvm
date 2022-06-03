@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
 
         mainViewModel.quotes.observe(this, Observer {
-            Log.d("success",it.totalCount.toString())
+            Log.d("success",it.results.toString())
         })
 
 
